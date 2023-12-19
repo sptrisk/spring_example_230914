@@ -21,7 +21,7 @@ public class Lesson03Ex01RestController {
 			// @RequestParam(value = "id", required = true) int id  // 필수 파라미터
 			// @RequestParam(value = "id", required = false) Integer id  // 비필수 파라미터
 			// @RequestParam(value="id", defaultValue="1") int id			// 비필수 + 디폴트 값 1
-			@RequestParam("id", defaultValue="1") int id) {					// 필수 파라미터
+			@RequestParam("id") int id) {					// 필수 파라미터
 		
 		
 //		if (id == null) {
